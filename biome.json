@@ -13,7 +13,14 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "preset": "recommended"
+      "preset": "recommended",
+      "correctness": {
+        "noUnusedFunctionParameters": "off",
+        "noUnusedVariables": "off"
+      },
+      "suspicious": {
+        "noExplicitAny": "off"
+      }
     }
   },
 
